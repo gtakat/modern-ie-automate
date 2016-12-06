@@ -1,0 +1,9 @@
+Vagrant.configure(2) do |config|
+  config.vm.box = "MSEdge.Win10_preview"
+  config.vm.box_url = "boxes/MSEdge.Win10_preview.Vagrant.box"
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.gui = true
+    vb.memory = "1024"
+  end
+end

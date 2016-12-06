@@ -1,0 +1,8 @@
+/boxes/*
+/tmp/*
+/cache/*
+/node_modules
+npm-debug.log
+.vagrant/
+/.idea
+

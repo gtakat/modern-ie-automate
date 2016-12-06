@@ -1,0 +1,9 @@
+Vagrant.configure(2) do |config|
+  config.vm.box = "IE9.Win7"
+  config.vm.box_url = "boxes/IE9.Win7.Vagrant.box"
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.gui = true
+    vb.memory = "1024"
+  end
+end
