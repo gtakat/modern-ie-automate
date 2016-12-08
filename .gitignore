@@ -1,5 +1,5 @@
-/boxes/*
-/tmp/*
+/boxes/*.box
+/tmp/*.zip
 /cache/*
 /node_modules
 npm-debug.log
